@@ -82,3 +82,24 @@ header .menu {
     align-items: center;
     justify-content: space-between;
 }
+
+#quem-somos h2 {
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 45px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}    
+
+#quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
+}
