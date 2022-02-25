@@ -69,7 +69,7 @@ header .menu {
     color: #08368b;
 }
 
-.texto-apresentacao a{
+.btn{
     background-color: #122A57;
     color: #ffff;
     text-align: center;
@@ -163,4 +163,85 @@ header .menu {
 .item-servico img {
     width: 80%;
     margin: auto;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+#planos h2 {
+    font-size: 32px;
+    margin-top: 15px;
+    
+}
+.list-planos {
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-plano {
+    flex: 1;
+    border: 5px solid #04112b;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+    
+}
+
+.item-plano .btn {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.item-plano h3 {
+    font-size: 24px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plano ul li::before{
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: #08368b;
+    margin-right: 7px;
+
+}
+
+footer {
+    background-color: #7084aa;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
 }
